@@ -1,5 +1,11 @@
 package com.xiaoyang.thread;
 
+/*
+ * 子线程循环10次，接着主线程循环100，
+ * 接着又回到子线程循环10次，接着再回到主线程又循环100，
+ * 如此循环50次，请写出程序。
+ * 
+ * */
 public class Main100Sub10 {
 
 	public static void main(String[] args) {
