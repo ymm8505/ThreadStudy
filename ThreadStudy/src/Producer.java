@@ -1,9 +1,9 @@
-import java.util.concurrent.BlockingQueue;
+/*import java.util.concurrent.BlockingQueue;
 
-/*
+
  * BlockingQueue 队列   实现生产者 消费者模式
  * 
- * */
+ * 
 class Producer implements Runnable {
 	private final BlockingQueue queue;
 
@@ -60,3 +60,4 @@ class Setup {
 		new Thread(c2).start();
 	}
 }
+*/
