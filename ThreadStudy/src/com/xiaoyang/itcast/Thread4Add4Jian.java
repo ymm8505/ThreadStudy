@@ -37,7 +37,6 @@ public class Thread4Add4Jian {
 	}
 	
 	static  class MyRunnableAdd implements Runnable{
-		int i= 0;
 		private ShareDate Date;
 		public MyRunnableAdd(ShareDate Date1) {	
 			this.Date = Date1;
